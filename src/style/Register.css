@@ -1,0 +1,42 @@
+.registerContainer{
+  width: 350px;
+  height: 350px;
+  padding: 10px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.logo{
+  font-size: 20px;
+  padding: 10px;
+  color: slateblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.shift{
+  width: 300px;
+  padding: 10px;
+}
+.registerBtn{
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: slateblue;
+}
+.registerCancel{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
